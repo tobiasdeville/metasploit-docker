@@ -1,0 +1,11 @@
+mkdir pentest-environment && cd pentest-environment
+
+mkdir -p scripts shared wordlists results web-content backups
+
+chmod +x scripts/*.sh
+
+make start
+
+make shell
+
+./manage.sh build/clean/start/stop/shell

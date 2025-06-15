@@ -1,0 +1,11 @@
+.git
+.gitignore
+README.md
+docker-compose.yml
+manage.sh
+Makefile
+*.log
+.env
+node_modules
+.DS_Store
+Thumbs.db
